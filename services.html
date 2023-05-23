@@ -15,10 +15,11 @@
         <ul>
           <li><a id="home" href="./index.html">Home</a></li>
           <li><a id="about" href="./about.html">About</a></li>
-          <li><a id="services" href="#">Services</a></li>
+          <li><a class="emph" id="services" href="./services.html">Services</a></li>
         </ul>
       </section>
     </nav>
+    <main>
     <section class="main__mid">
       <h2>Subscribe To Our Newsletter</h2>
       <section class="main__mid--form">
@@ -28,30 +29,30 @@
           id="e-mail"
           placeholder="Enter Your Email.."
         />
-        <button type="submit" value="submit">Subscribe</button>
+        <button class="button" type="submit" value="submit">Subscribe</button>
       </section>
     </section>
     <section class="services__main">
       <section class="services__main--left">
         <h3>Services</h3>
-        <section>
-          <h3></h3>
+        <section class="services__left--inner">
+          <h3>Website Design</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum,
             dignissimos.
           </p>
           <p>pricin per month</p>
         </section>
-        <section>
-          <h3></h3>
+        <section class="services__left--inner">
+          <h3>Website Maintenance</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum,
             dignissimos.
           </p>
           <p>pricin per month</p>
         </section>
-        <section>
-          <h3></h3>
+        <section class="services__left--inner">
+          <h3>Website Hosting</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum,
             dignissimos.
@@ -59,18 +60,19 @@
           <p>pricin per month</p>
         </section>
       </section>
-      <form action="">
+      <form class="services__main--right" action="">
         <h3>Get A Quote</h3>
-        <label for=""></label>
-        <input type="text" name="" id="" />
-        <label for=""></label>
-        <input type="text" name="" id="" />
-        <label for=""></label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <button type="submit"></button>
+        <label for="name">Name</label><br>
+        <input type="text" name="name" id="name" placeholder="Your Name"/><br>
+        <label for="email">E-mail</label><br>
+        <input type="email" name="email" id="email" placeholder="Enter Your E-mail Adress"><br>
+        <label for="message">Message</label><br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message Is Here" ></textarea><br>
+        <button class="button" type="submit">.  Send  .</button>
       </form>
     </section>
-
+  </main>
+  
     <footer>
       <p>Clarusway Web Design, Copright @ 2020</p>
       <img src="./img/clarusway_logo.png" alt="" />
