@@ -2,7 +2,6 @@
 https://nmekinci.github.io/threepages/
 
 
-   |----|
         |----img (folder)
         |----readme.md  
         |----about.html   
