@@ -1,9 +1,11 @@
 # threepages
 https://nmekinci.github.io/threepages/
 
-
+skeleton
+   |----|
+        |----img (folder)
+        |----readme.md  
+        |----about.html   
         |----index.html  
-        |----style.css   
-        |----about.html  
         |----services.html 		
-        |----images (folder)
+        |----style.css
